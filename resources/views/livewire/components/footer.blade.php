@@ -22,7 +22,7 @@
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                                <h3 class="text-light mb-0">Prendre contact</h3>
+                                <h3 class="text-light mb-0">Prendre contact avec nous</h3>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>

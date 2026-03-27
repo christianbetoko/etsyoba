@@ -1,8 +1,14 @@
 <?php
 
+
 use App\Livewire\About;
+
+use App\Livewire\Actualite;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Home;
+use App\Livewire\Actualites;
+use App\Livewire\ContactPage;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +22,8 @@ use App\Livewire\Home;
 
 Route::get('/', Home::class)->name('home');
 Route::get('/apropos', About::class)->name('about');
+Route::get('/contact', ContactPage::class)->name('contact');
+Route::get('/actualites', Actualites::class)->name('actualites');
+
+
+Route::get('/{category}/{slug}', Actualite::class)->name('actualite');

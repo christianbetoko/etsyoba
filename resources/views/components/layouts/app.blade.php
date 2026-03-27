@@ -12,7 +12,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="{{ asset('assets/img/mabanniere.png') }}" rel="icon">
+    <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,15 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-
+@if(View::hasSection('meta_tags'))
+        @yield('meta_tags')
+    @else
+        {{-- Valeurs par défaut (ex: Accueil) --}}
+        <meta property="og:title" content="etsyoba.com - Accueil">
+        <meta property="og:description" content=".">
+        <meta property="og:image" content="{{asset('assets/img/logo.png')}}">
+        <meta name="twitter:image" content="{{asset('assets/img/logo.png')}}">
+    @endif
         @livewireStyles
     </head>
     <body>
@@ -54,6 +62,7 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         @livewireScripts
     </body>
 </html>

@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Livewire\Component;
 use App\Models\Stat;
 use App\Models\Slide;
-#[Title('Accueil - Ets Yoba - Ma Bannière')]
+#[Title('Accueil - Ets Yoba')]
 class Home extends Component
 {
     public function render()

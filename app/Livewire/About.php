@@ -5,7 +5,7 @@ use Carbon\Carbon;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 use App\Models\Entreprise;
-#[Title('Accueil - Ets Yoba - Ma Bannière')]
+#[Title('À propos - Ets Yoba')]
 class About extends Component
 {
     public function render()

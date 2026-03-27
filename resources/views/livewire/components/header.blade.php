@@ -60,8 +60,8 @@
                             <a href="detail.html" class="dropdown-item">MEDIAS</a>
                         </div>
                     </div> 
-                     <a href="about.html" class="nav-item nav-link">ACTUALITES</a>
-                    <a href="contact.html" class="nav-item nav-link">CONTACT</a>
+                     <a href="{{ route('actualites') }}" class="nav-item nav-link {{request()->routeIs('actualites') ? 'active' : ''}}">ACTUALITES</a>
+                    <a href="{{ route('contact') }}" class="nav-item nav-link {{request()->routeIs('contact') ? 'active' : ''}}">CONTACT</a>
                 </div>
                {{--  <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                 <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> --}}

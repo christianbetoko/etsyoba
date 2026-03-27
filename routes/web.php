@@ -15,4 +15,4 @@ use App\Livewire\Home;
 */
 
 Route::get('/', Home::class)->name('home');
-Route::get('/legoupe', About::class)->name('about');
+Route::get('/apropos', About::class)->name('about');

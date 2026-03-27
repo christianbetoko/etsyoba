@@ -8,8 +8,8 @@
                             <img class="w-100" src="{{ url('storage/' . $slide->image) }}" alt="{{ $slide->title }}">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 900px;">
-                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">{{ $slide->title }}</h5>
-                                    <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{ $slide->description }}</h1>
+                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">{{ $slide->description }}</h5>
+                                    <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{ $slide->title }}</h1>
                                     <a href="{{ $slide->url }}" class="btn btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En savoir plus</a>
                                     
                                 </div>

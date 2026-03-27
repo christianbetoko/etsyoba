@@ -39,27 +39,29 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{ route('home') }}" class="navbar-brand p-0">
-               <img src="{{ url('storage/' . $entreprise->logo_sans_fond) }}" alt="{{ $entreprise->name ?? 'Logo' }}" style="width: 100px; height: 100px;">
-                {{-- <span class="h1 text-primary ms-2">{{ $entreprise->name ?? 'Ma Bannière' }}</span> --}}
-            </a>
+              {{--  <img src="{{ url('storage/' . $entreprise->logo_sans_fond) }}" alt="{{ $entreprise->name ?? 'Logo' }}" style="width: 100px; height: 100px;"> --}}
+                {{--  <span class="h1 text-primary ms-2">{{ $entreprise->name ?? 'ETS YOBA' }}</span>  --}}
+             <h1 class="m-0">{{ $entreprise->name ?? 'ETS YOBA' }}</h1>
+                </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="{{ route('home') }}" class="nav-item nav-link {{request()->routeIs('home') ? 'active' : ''}}">Accueil</a>
-                    <a href="{{ route('about') }}" class="nav-item nav-link {{request()->routeIs('about') ? 'active' : ''}}">Le Groupe</a>
+                    <a href="{{ route('home') }}" class="nav-item nav-link {{request()->routeIs('home') ? 'active' : ''}}">ACCUEIL</a>
+                    <a href="{{ route('about') }}" class="nav-item nav-link {{request()->routeIs('about') ? 'active' : ''}}">À PROPOS</a>
+                  
 
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nos activités</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NOS ACTIVITÉS</a>
                         <div class="dropdown-menu m-0">
-                            <a href="blog.html" class="dropdown-item">Agro pastoral</a>
-                            <a href="detail.html" class="dropdown-item">Santé</a>
-                            <a href="detail.html" class="dropdown-item">Médias</a>
+                            <a href="blog.html" class="dropdown-item">AGRO PASTORAL</a>
+                            <a href="detail.html" class="dropdown-item">CMC-B</a>
+                            <a href="detail.html" class="dropdown-item">MEDIAS</a>
                         </div>
-                    </div>
-                     <a href="about.html" class="nav-item nav-link">Actualités</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div> 
+                     <a href="about.html" class="nav-item nav-link">ACTUALITES</a>
+                    <a href="contact.html" class="nav-item nav-link">CONTACT</a>
                 </div>
                {{--  <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                 <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> --}}

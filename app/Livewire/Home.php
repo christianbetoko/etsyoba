@@ -6,6 +6,7 @@ use Carbon\Carbon;
 use Livewire\Component;
 use App\Models\Stat;
 use App\Models\Slide;
+use App\Models\Testimonial;
 #[Title('Accueil - Ets Yoba')]
 class Home extends Component
 {
@@ -16,6 +17,7 @@ class Home extends Component
          $slides=Slide::orderBy('created_at','ASC')
         ->where('is_active',true)
         ->get();
-        return view('livewire.home', compact('stats', 'slides'));
+        $testimonials = Testimonial::where('is_active', true)->get();
+        return view('livewire.home', compact('stats', 'slides', 'testimonials'));
     }
 }

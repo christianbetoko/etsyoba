@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                             <div class="pt-4 pb-5 px-5">
-                                {{ Str::limit($testimonial->content, 200) }}
+                                {{ $testimonial->content}}
                             </div>
                         </div>
                     @endforeach

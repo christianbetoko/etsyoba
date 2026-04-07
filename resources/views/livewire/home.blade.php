@@ -105,17 +105,17 @@
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa- text-white"></i>
+                                <i class="fa fa-leaf text-white"></i>
                             </div>
                             <h4>Agro pastoral</h4>
-                            <p class="mb-0"></p>
+                            <p class="mb-0">Une expertise avicole de premier plan dédiée à l'élevage de poules pondeuses et à la production d'œufs d'une fraîcheur absolue. Nous maîtrisons chaque étape, de la fabrication de l'aliment à la récolte finale, pour garantir des produits sains, naturels et conformes aux plus hauts standards sanitaires.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-hospital text-white"></i>
                             </div>
                             <h4>CMC-B</h4>
-                            <p class="mb-0">Centre Médical Christ-ma-Bannière</p>
+                            <p class="mb-0">Centre Médical Christ-ma-Bannière, Une offre de soins premium fondée sur l’éthique et l’excellence technique. Notre centre allie compétences médicales de pointe et prise en charge humaine pour garantir votre bien-être au quotidien.</p>
                         </div>
                     </div>
                 </div>
@@ -131,14 +131,14 @@
                                 <i class="fa fa-camera text-white"></i>
                             </div>
                             <h4>Médias</h4>
-                            <p class="mb-0">Rédaction et Communication</p>
+                            <p class="mb-0">Pôle stratégique dédié à l’information et à la communication d'impact. Nous valorisons les initiatives à forte valeur ajoutée à travers une rédaction rigoureuse et une diffusion d'élite.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-bus text-white"></i>
                             </div>
                             <h4>Transport</h4>
-                            <p class="mb-0"></p>
+                            <p class="mb-0">Solutions logistiques robustes et sécurisées pour répondre à vos besoins les plus exigeants. Nous mettons à votre disposition une flotte performante garantissant fiabilité, ponctualité et professionnalisme.</p>
                         </div>
                     </div>
                 </div>

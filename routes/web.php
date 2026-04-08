@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\Home;
 use App\Livewire\Actualites;
 use App\Livewire\ContactPage;
+use App\Livewire\AgroPastoral;
+use App\Livewire\CentreMedical;
+use App\Livewire\Medias;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +27,9 @@ Route::get('/', Home::class)->name('home');
 Route::get('/apropos', About::class)->name('about');
 Route::get('/contact', ContactPage::class)->name('contact');
 Route::get('/actualites', Actualites::class)->name('actualites');
+Route::get('/agro-pastoral', AgroPastoral::class)->name('agro-pastoral');
+Route::get('/centre-medical-christ-ma-banniere', CentreMedical::class)->name('centre-medical');
+Route::get('/media', Medias::class)->name('medias');
 
 
 Route::get('/{category}/{slug}', Actualite::class)->name('actualite');

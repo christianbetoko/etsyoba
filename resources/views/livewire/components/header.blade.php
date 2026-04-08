@@ -9,15 +9,22 @@
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+            <div class="col-lg-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>{{ $entreprise->address ?? '123 Street, New York, USA' }}</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>{{ $entreprise->phone ?? '+012 345 6789' }}</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>{{ $entreprise->email ?? 'info@example.com' }}</small>
+                    
+               <small class="me-3 text-light">  <b>RCCM</b> {{ $legalInformation->rccm ?? 'RCCM' }} </small>
+                      <small class="me-3 text-light">  <b>ID NAT</b> {{ $legalInformation->idnat ?? 'ID NAT' }} </small>
+                      <small class="me-3 text-light">  <b>IMPOT</b> {{ $legalInformation->impot ?? 'IMPOT' }} </small>
                 </div>
+                    
+                     
             </div>
-            <div class="col-lg-4 text-center text-lg-end">
+            <div class="col-lg-6 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>{{ $entreprise->phone ?? '+012 345 6789' }}</small>
+                    <small class="me-3 text-light"><i class="fa fa-envelope-open me-2"></i>{{ $entreprise->email ?? 'info@example.com' }}</small>
+                   
                     @if ($socials->isNotEmpty())
                         @foreach ($socials as $social)
                             <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="{{ $social->url }}" target="_blank">

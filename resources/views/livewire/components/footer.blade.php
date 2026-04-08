@@ -10,6 +10,11 @@
                             {{-- <span class="h1 text-white ms-2">{{ $entreprise->name ?? 'Ma Bannière' }}</span> --}}
                        <h1 class="m-0 text-white"></i>{{ $entreprise->name ?? 'ETS YOBA' }}</h1>
                         </a>
+                        <p style="text-align: left">
+                           <b>RCCM</b> {{ $legalInformation->rccm ?? 'RCCM' }} <br>
+                           <b>ID NAT</b> {{ $legalInformation->idnat ?? 'ID NAT' }} <br>
+                           <b>IMPOT</b> {{ $legalInformation->impot ?? 'IMPOT' }} <br>
+                        </p>
                         <p class="mt-3 mb-4">Abonnez vous à notre newsletter </p>
                         <form action="">
                             <div class="input-group">

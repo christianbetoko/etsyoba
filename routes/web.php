@@ -11,6 +11,7 @@ use App\Livewire\ContactPage;
 use App\Livewire\AgroPastoral;
 use App\Livewire\CentreMedical;
 use App\Livewire\Medias;
+use App\Livewire\DepartementTransport;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +30,8 @@ Route::get('/contact', ContactPage::class)->name('contact');
 Route::get('/actualites', Actualites::class)->name('actualites');
 Route::get('/agro-pastoral', AgroPastoral::class)->name('agro-pastoral');
 Route::get('/centre-medical-christ-ma-banniere', CentreMedical::class)->name('centre-medical');
-Route::get('/media', Medias::class)->name('medias');
+Route::get('/departement-transport', DepartementTransport::class)->name('departement-transport');
+Route::get('/medias', Medias::class)->name('medias');
 
 
 Route::get('/{category}/{slug}', Actualite::class)->name('actualite');

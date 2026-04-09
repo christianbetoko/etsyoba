@@ -1,9 +1,9 @@
 <div>
-    <!-- Spinner Start -->
+  {{--   <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
     </div>
-    <!-- Spinner End -->
+    <!-- Spinner End --> --}}
 
 
     <!-- Topbar Start -->
@@ -62,9 +62,10 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NOS ACTIVITÉS</a>
                         <div class="dropdown-menu m-0">
-                            <a href="blog.html" class="dropdown-item">AGRO PASTORAL</a>
-                            <a href="detail.html" class="dropdown-item">CMC-B</a>
-                            <a href="detail.html" class="dropdown-item">MEDIAS</a>
+                            <a href="{{route('agro-pastoral')}}" class="dropdown-item {{request()->routeIs('agro-pastoral') ? 'active' : ''}}"">AGRO PASTORAL</a>
+                            <a href="{{route('centre-medical')}}" class="dropdown-item {{request()->routeIs('centre-medical') ? 'active' : ''}}"">CMC-B</a>
+                            <a href="{{route('departement-transport')}}" class="dropdown-item {{request()->routeIs('departement-transport') ? 'active' : ''}}"">Transport</a>
+                            <a href="{{route('medias')}}" class="dropdown-item {{request()->routeIs('medias') ? 'active' : ''}}"">MEDIAS</a>
                         </div>
                     </div> 
                      <a href="{{ route('actualites') }}" class="nav-item nav-link {{request()->routeIs('actualites') ? 'active' : ''}}">ACTUALITES</a>

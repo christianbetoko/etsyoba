@@ -8,7 +8,7 @@ use Livewire\Attributes\Title;
 use App\Models\Entreprise;
 use App\Models\Contact;
  use Jantinnerezo\LivewireAlert\Facades\LivewireAlert;
-#[Title('Contact - THE POLITICO')]
+#[Title('Contact - Ets Yoba')]
 
 class ContactPage extends Component
 {

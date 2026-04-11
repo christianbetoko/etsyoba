@@ -5,7 +5,7 @@ use Carbon\Carbon;
 use Livewire\Component;
 use Livewire\Attributes\Title;
 use App\Models\Service;
-#[Title('Accueil - Ets Yoba')]
+#[Title('Agro pastoral - Ets Yoba')]
 class AgroPastoral extends Component
 {
     public function render()

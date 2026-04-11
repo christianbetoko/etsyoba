@@ -32,6 +32,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 @if(View::hasSection('meta_tags'))
         @yield('meta_tags')
     @else
@@ -61,6 +62,7 @@
     <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
 
     <!-- Template Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         @livewireScripts

@@ -12,6 +12,7 @@ use App\Livewire\AgroPastoral;
 use App\Livewire\CentreMedical;
 use App\Livewire\Medias;
 use App\Livewire\DepartementTransport;
+use App\Livewire\TeamPage;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,7 @@ use App\Livewire\DepartementTransport;
 
 Route::get('/', Home::class)->name('home');
 Route::get('/apropos', About::class)->name('about');
+Route::get('/equipe', TeamPage::class)->name('team');
 Route::get('/contact', ContactPage::class)->name('contact');
 Route::get('/actualites', Actualites::class)->name('actualites');
 Route::get('/agro-pastoral', AgroPastoral::class)->name('agro-pastoral');

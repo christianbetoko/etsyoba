@@ -57,6 +57,7 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="{{ route('home') }}" class="nav-item nav-link {{request()->routeIs('home') ? 'active' : ''}}">ACCUEIL</a>
                     <a href="{{ route('about') }}" class="nav-item nav-link {{request()->routeIs('about') ? 'active' : ''}}">À PROPOS</a>
+                    <a href="{{ route('team') }}" class="nav-item nav-link {{request()->routeIs('team') ? 'active' : ''}}">EQUIPE</a>
                   
 
                     <div class="nav-item dropdown">

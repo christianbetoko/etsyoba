@@ -12,7 +12,7 @@ class CentreMedical extends Component
     public function render()
     {
         Carbon::setLocale('fr');
-        $service = Service::where('slug', 'centre-medical')
+        $service = Service::where('slug', 'centre-medical-christ-ma-banniere')
                           ->where('is_active', true)
                           ->first();
         return view('livewire.centre-medical', compact('service'));

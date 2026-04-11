@@ -46,9 +46,9 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{ route('home') }}" class="navbar-brand p-0">
-              {{--  <img src="{{ url('storage/' . $entreprise->logo_sans_fond) }}" alt="{{ $entreprise->name ?? 'Logo' }}" style="width: 100px; height: 100px;"> --}}
+               <img src="{{ url('storage/' . $entreprise->logo_sans_fond) }}" alt="{{ $entreprise->name ?? 'Logo' }}" style="width: 100px; height: 100px;"> 
                 {{--  <span class="h1 text-primary ms-2">{{ $entreprise->name ?? 'ETS YOBA' }}</span>  --}}
-             <h1 class="m-0">{{ $entreprise->name ?? 'ETS YOBA' }}</h1>
+        {{--      <h1 class="m-0">{{ $entreprise->name ?? 'ETS YOBA' }}</h1> --}}
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>

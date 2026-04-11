@@ -51,7 +51,7 @@
                            @if ($membre->email)
                                 <h6>{{$membre->email}}</h6> 
                             @endif
-                            @if ($membre->message)
+                            @if ($membre->role)
                                   <p class="text-uppercase m-0">{{$membre->role}}</p>
                             @endif
                          

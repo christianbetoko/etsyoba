@@ -184,11 +184,11 @@
                 <h1 class="mb-0">Lisez Les Derniers Articles de Notre Blog</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-8 wow slideInUp" >
+                <div class="col-lg-3 wow slideInUp" >
                     <div class="row g-5">
                         @if ($posts->isNotEmpty())
                             @foreach ($posts as $post)
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <div class="blog-item bg-light rounded overflow-hidden">
                                         <div class="blog-img position-relative overflow-hidden">
                                             <img class="img-fluid" src="{{ asset('storage/' . $post->image_cover) }}" alt="{{ $post->title }}">

@@ -188,7 +188,7 @@
                     <div class="row g-5">
                         @if ($posts->isNotEmpty())
                             @foreach ($posts as $post)
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="blog-item bg-light rounded overflow-hidden">
                                         <div class="blog-img position-relative overflow-hidden">
                                             <img class="img-fluid" src="{{ asset('storage/' . $post->image_cover) }}" alt="{{ $post->title }}">

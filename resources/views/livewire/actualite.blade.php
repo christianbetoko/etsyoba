@@ -2,13 +2,13 @@
 
 @section('meta_tags')
     <meta property="og:title" content="{{ $post->title }}">
-    <meta property="og:description" content="{{ Str::limit($post->content, 160) }}">
+    <meta property="og:description" content="{!! Str::limit($post->content, 160) !!}">
     {{-- On utilise directement l'attribut calculé --}}
     <meta property="og:image" content="{{   asset('storage/'.$post->image_cover) }}">
    <meta property="og:type" content="article">
 
     <meta name="twitter:title" content="{{ $post->title }}">
-    <meta name="twitter:description" content="{{ Str::limit($post->content, 160) }}">
+    <meta name="twitter:description" content="{!! Str::limit($post->content, 160) !!}">
     <meta name="twitter:image" content="{{ asset('storage/'.$post->image_cover) }}">
     <meta name="twitter:card" content="summary_large_image">
 @endsection

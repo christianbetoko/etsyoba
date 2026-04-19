@@ -184,7 +184,7 @@
                 <h1 class="mb-0">Lisez Les Derniers Articles de Notre Blog</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-3 wow slideInUp" >
+                <div class="col-lg-12 wow slideInUp" >
                     <div class="row g-5">
                         @if ($posts->isNotEmpty())
                             @foreach ($posts as $post)

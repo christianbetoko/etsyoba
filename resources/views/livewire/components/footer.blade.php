@@ -93,7 +93,7 @@
                         <p class="mb-0">&copy;<script>document.write(new Date().getFullYear());</script> <a class="text-white border-bottom" href="https://etsyoba.com"> ETS YOBA</a>. Tout droit réservé. 
 						
 						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-						Développé par <a class="text-white border-bottom" href="https://christianbetoko.dev">CB</a></p>
+						Développé par <a class="text-white border-bottom" href="https://christianbetoko.dev">C.B.</a></p>
                         
                     </div>
                 </div>
